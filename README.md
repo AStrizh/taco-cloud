@@ -1,6 +1,6 @@
 # taco-cloud
-This is an implementation of the taco-cloud application explored in Spring in Action 5th Edition.
-It is a learning to to study the Java Spring Framework
+This is an implementation of the taco-cloud application explored in Spring in Action 5th Edition.  
+It is a learning tool to study the Java Spring Framework.
 
 As of last update: 
 The code from Chapter 2 has been implemented
