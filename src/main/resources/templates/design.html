@@ -9,7 +9,7 @@
 
     <body>
 
-    <form method="POST" th:object="${design}">
+    <form method="POST" th:object="${taco}">
         <h1>Design your taco!</h1>
         <img th:src="@{/images/taco.png}"/>
         <!--<div th:if="${#fields.hasErrors()}">-->
@@ -19,9 +19,9 @@
         <!--</div>-->
 
 
-        <!--<span class="validationError"-->
-              <!--th:if="${#fields.hasErrors('ingredients')}"-->
-              <!--th:errors="*{ingredients}">Ingredient Error</span>-->
+        <span class="validationError"
+              th:if="${#fields.hasErrors('ingredients')}"
+              th:errors="*{ingredients}">Ingredient Error</span>
 
 
         <div class="grid">
