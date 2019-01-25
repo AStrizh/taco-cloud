@@ -1,4 +1,6 @@
-package com.erudos.tacocloud;
+package com.erudos.tacocloud.data;
+
+import com.erudos.tacocloud.Ingredient;
 
 public interface IngredientRepository {
 

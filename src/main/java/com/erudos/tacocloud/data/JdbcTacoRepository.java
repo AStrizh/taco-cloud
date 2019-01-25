@@ -1,5 +1,8 @@
-package com.erudos.tacocloud;
+package com.erudos.tacocloud.data;
 
+import com.erudos.tacocloud.Ingredient;
+import com.erudos.tacocloud.Taco;
+import com.erudos.tacocloud.data.TacoRepository;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.core.PreparedStatementCreatorFactory;

@@ -1,5 +1,8 @@
-package com.erudos.tacocloud;
+package com.erudos.tacocloud.data;
 
+import com.erudos.tacocloud.Order;
+import com.erudos.tacocloud.Taco;
+import com.erudos.tacocloud.data.OrderRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -12,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 @Repository
-public class JdbcOrderRepository implements OrderRepository{
+public class JdbcOrderRepository implements OrderRepository {
 
     private SimpleJdbcInsert orderInserter;
     private SimpleJdbcInsert orderTacoInserter;

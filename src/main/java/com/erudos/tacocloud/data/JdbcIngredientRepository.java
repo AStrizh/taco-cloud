@@ -1,5 +1,7 @@
-package com.erudos.tacocloud;
+package com.erudos.tacocloud.data;
 
+import com.erudos.tacocloud.Ingredient;
+import com.erudos.tacocloud.data.IngredientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;

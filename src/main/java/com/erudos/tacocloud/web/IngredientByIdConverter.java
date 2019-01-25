@@ -1,7 +1,7 @@
 package com.erudos.tacocloud.web;
 
 import com.erudos.tacocloud.Ingredient;
-import com.erudos.tacocloud.IngredientRepository;
+import com.erudos.tacocloud.data.IngredientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.core.convert.converter.Converter;
