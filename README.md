@@ -3,11 +3,12 @@ This is an implementation of the taco-cloud application explored in Spring in Ac
 It is a learning tool to study the Java Spring Framework.
 
 As of last update:  
-The code from Chapter 3 (JPA) has been implemented
+The code from Chapter 4 has been implemented
 
-Note: The code would not work as written in the book. The H2 database version *.196 must be set in the POM as shown below.  
-The default version (likely *.197) breaks auto incrementation; which causes GeneratedKeyHolder.getKey() to return null.
-<h2.version>1.4.196</h2.version>  -- include this in the properties section of the .pom file.
+Note: Forums for this book at Manning.com suggest that this chapter is out of date since
+the methods described were deprecated upon publication (or even before publication).   
+Therefore it should only be used if you want to implement the code in the book,
+and should not be used as a reference.
 
 
 ## Build Tools
